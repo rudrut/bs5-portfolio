@@ -1,0 +1,68 @@
+body, html {
+    height: 100%
+}
+
+body {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left {
+    background: url(https://images.unsplash.com/photo-1545486332-9e0999c535b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+    /*background-size: cover;*/
+}
+
+@media (max-width: 768px) {
+    .intro-left {
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 75%;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quote {
+    float: right;
+    font-size: 1rem;
+}
+
+section {
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.panel-right {
+    background-color: #eee;
+}
+
+.background {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    clip-path: polygon(71% 0, 89% 0, 68% 100%, 51% 100%);
+}
